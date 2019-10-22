@@ -1,0 +1,74 @@
+1. Newton Second Law
+
+	Algoritma:
+	1. Tentukan massa benda
+	2. Tentukan percepatan benda
+	3. Hitung gaya dengan massa benda dikali percepatan benda
+	4. Tampilkan gaya
+
+	Psudocode:
+
+	SET "massa" WITH 600
+	SET "percepatan" WITH 2
+	CALCULATE "massa" MULTIPLY "percepatan"
+	SET "gaya" VALUE WITH CALCULATION RESULT
+	DISPLAY "gaya"
+
+
+2. Tahun Kabisat
+
+	Algoritma:
+	1. Tentukan tahun
+	2. Tentukan syarat tahun kabisat
+	3. Bandingkan tahun dengan syarat tahun kabisat
+	4. Jika tahun habis dibagi 4 dan tidak habis dibagi 100 maka tahun kabisat
+	5. Jika tahun habis dibagi 4, habis dibagi 100, dan habis dibagi 400 maka tahun kabisat
+	
+	Pseudocode:
+
+	SET "tahun" WITH any value
+	IF "tahun" MOD 4 EQUALS 0 AND "tahun" MOD 100 NOT EQUALS 0
+		DISPLAY "Tahun Kabisat"
+	ELSE IF "tahun" MOD 4 EQUALS 0 AND "tahun" MOD 100 EQUALS 0 AND "tahun" MOD 400 EQUALS 0
+		DISPLAY "Tahun Kabisat"
+	ELSE
+		DISPLAY "Bukan Tahun Kabisat"
+	END IF
+
+
+3. Laundry Day
+
+	Algoritma:
+	1. Tentukan jumlah pakaian
+	2. Ketika jumlah pakaian kurang dari 20, tambahkan 1 pakaian hingga mencapai 20
+	3. Nyalakan mesin
+
+	Pseudocode:
+	
+	SET "pakaian" WITH 0
+	WHILE "pakaian" LESS THAN 20
+		ADD "pakaian" by 1
+	END WHILE
+	DISPLAY "Mesin cuci dinyalakan"
+
+
+4. Periksa Kuku
+
+	Algoritma:
+	1. Tentukan jumlah siswa yang diperiksa kuku
+	2. Ketika jumlah siswa yang sudah diperiksa kuku kurang dari 40, tambahkan 1 siswa yang diperiksa kuku
+	3. Jika kuku yang diperiksa panjang maka siswa dihukum
+	4. Jika kuku yang diperiksa pendek maka siswa dipuji
+
+	Pseudocode:
+
+	SET "diperiksa" WITH 0
+	WHILE "diperiksa" LESS THAN 40
+		ADD "diperiksa" by 1
+		IF "diperiksa" EQUALS "kuku panjang"
+			Display "siswa dihukum"
+		ELSE
+			Display "siswa dipuji"
+		END IF
+	END WHILE
+			
